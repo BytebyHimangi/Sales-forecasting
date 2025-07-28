@@ -1,39 +1,26 @@
-# 📈 AI-Powered Sales Forecasting App
+# Sales Forecasting App
 
-This project is a **Sales Forecasting Web App** that leverages **Machine Learning (AI)** and **Business Analysis (BA)** principles to help businesses predict future sales trends and make data-driven decisions.
+This AI-powered sales forecasting app helps visualize trends, forecast future sales, and analyze key drivers across regions and product categories.
 
----
+## Features
+- Upload historical CSV sales data
+- Automated forecasting using AI
+- Interactive data visualizations
+- Export report as CSV
 
-## 🚀 Features
+## Tech Stack
+- Backend: Python, FastAPI, Scikit-learn
+- Frontend: React.js, Chart.js, Tailwind CSS
+- AI Model: Linear Regression/Prophet
 
-- Upload historical sales data (CSV)
-- Forecast sales for the next 3, 6, or 12 months
-- Visualize trends across product categories and regions
-- See actual vs predicted sales using interactive charts
-- Export reports as CSV and PDF
-- Auto-generated business insights (e.g., best-performing regions)
-- Simple and intuitive user interface
+## Installation
+```bash
+# Backend
+cd backend
+pip install -r requirements.txt
+python server.py
 
----
-
-## 🧠 Tech Stack
-
-| Area              | Tools / Libraries                    |
-|-------------------|--------------------------------------|
-| Frontend          | Streamlit / Flask (customizable UI) |
-| Backend (AI)      | Python, Pandas, Scikit-learn         |
-| Visualization     | Matplotlib, Seaborn / Plotly         |
-| Reporting         | PDFKit / ReportLab / CSV Export      |
-| Forecasting Model | Linear Regression / Time Series ML   |
-
----
-
-## 📂 Sample Data Format
-
-The app expects your input file to have the following columns:
-
-```csv
-Date, Product_Category, Region, Units_Sold, Revenue
-2022-01-01, Electronics, North, 120, 240000
-2022-01-01, Fashion, South, 85, 102000
-
+# Frontend
+cd frontend
+yarn install
+yarn start
