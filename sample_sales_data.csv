@@ -1,0 +1,25 @@
+Date,Product Category,Region,Units Sold,Revenue
+2023-01-01,Electronics,North,120,240000
+2023-01-01,Fashion,South,85,102000
+2023-02-01,Electronics,North,140,280000
+2023-02-01,Fashion,South,90,108000
+2023-03-01,Electronics,North,130,260000
+2023-03-01,Fashion,South,95,114000
+2023-04-01,Electronics,North,125,250000
+2023-04-01,Fashion,South,100,120000
+2023-05-01,Electronics,North,135,270000
+2023-05-01,Fashion,South,105,126000
+2023-06-01,Electronics,North,145,290000
+2023-06-01,Fashion,South,110,132000
+2023-07-01,Electronics,North,155,310000
+2023-07-01,Fashion,South,115,138000
+2023-08-01,Electronics,North,160,320000
+2023-08-01,Fashion,South,120,144000
+2023-09-01,Electronics,North,150,300000
+2023-09-01,Fashion,South,125,150000
+2023-10-01,Electronics,North,165,330000
+2023-10-01,Fashion,South,130,156000
+2023-11-01,Electronics,North,170,340000
+2023-11-01,Fashion,South,135,162000
+2023-12-01,Electronics,North,175,350000
+2023-12-01,Fashion,South,140,168000
